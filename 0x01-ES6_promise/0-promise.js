@@ -1,11 +1,8 @@
-const getResponseFromAPI = () => {
+function getFullResponseFromAPI(success) {
   return new Promise((resolve, reject) => {
-    // Make an API call
-    const response = callAPI();
-    if (response) {
-      resolve(response);
-    } else {
-      reject(Error('API call failed'));
-    }
+    if (success) resolve({ status: 200, body: 'Success' });
+    reject(Error('The fake API is not working currently'));
   });
-};
+}
+
+export default getFullResponseFromAPI;
