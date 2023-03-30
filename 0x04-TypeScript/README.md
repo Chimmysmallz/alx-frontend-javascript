@@ -1,4 +1,4 @@
-#Typescript
+# Typescript
 
 Typescript is kind of like an upgraded version of JavaScript. It's still used for making websites and web apps, but it has some extra features that make it easier for us programmers to write code that works the way we want it to.
 
