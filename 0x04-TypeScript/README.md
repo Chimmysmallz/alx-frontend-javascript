@@ -6,10 +6,10 @@ With Typescript, we can write code that's a bit more organized and easier to rea
 
 One of the biggest differences between Typescript and JavaScript is that with Typescript, we have to specify what type of data we're working with. For example, we might say that a certain variable is a number, or a string, or a boolean. This might sound a bit confusing, but it actually helps us avoid some common mistakes that can happen when we're working with data.
 
-## Task 1
+## Task_0
 I created an interface named Student which has the following elements: firstName(string), lastName(string), age(number), and location(string). Then, I created two student variables and added them to an array named studentsList. I used Vanilla Javascript to render a table and for each element in the studentsList array, I appended a new row to the table. Each row contains the first name of the student and the location.
 
-## Task 2
+## Task_1
 I created a directory named task_1 and copied the following configuration files into it: package.json, tsconfig.json, webpack.config.js.
 
 I created a Teacher interface which has the following attributes:
@@ -20,15 +20,15 @@ yearsOfExperience(number): This attribute is optional.
 location(string): This attribute should always be defined.
 I also added the possibility to add any attribute to the object without specifying the name of the attribute.
 
-## Task 3
+## Task_2
 I wrote an interface named Directors that extends Teacher and requires an attribute named numberOfReports(number).
 
-## Task 4
+## Task_3
 I wrote a function named printTeacher that accepts two arguments firstName and lastName and returns the first letter of the firstName and the full lastName (e.g. "John Doe" -> "J. Doe").
 
 I also created an interface named printTeacherFunction to describe the function.
 
-## Task 5
+## Task_4
 I created a StudentClass class with the following attributes:
 
 The constructor accepts firstName(string) and lastName(string) arguments.
@@ -37,7 +37,7 @@ The class has a method named displayName that returns the firstName of the stude
 The constructor of the class is described through an interface named StudentClassConstructor.
 The class is described through an interface named StudentClassInterface.
 
-## Task 6
+## Task_5
 I created the DirectorInterface interface with the following methods:
 
 workFromHome() returning a string.
